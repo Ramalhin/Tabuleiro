@@ -10,7 +10,7 @@ public class Tabuleiro {
         Sala salaInicial = new Sala();
         salaInicial.criar(posicaoInicial);
 
-        System.out.print("Digite a posiÃ§Ã£o desejada: [d = direita, b = baixo, c = cima, e = esquerda] ");
+        System.out.print("Digite a posição desejada: [d = direita, b = baixo, c = cima, e = esquerda] ");
         Scanner sc = new Scanner(System.in);
 
         while(sc.hasNext()) {
